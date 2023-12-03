@@ -1,22 +1,26 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer>
-      <div>
-        <a href="https://github.com/developer" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-        <a href="https://linkedin.com/developer" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-        <a href="https://stackoverflow.com/developer" target="_blank" rel="noopener noreferrer">
-          Stack Overflow
-        </a>
-        {/* Add more social links */}
+    <footer className="bg-light text-center py-4">
+      <div className="container">
+        <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+        <div className="social-links">
+          {/* Add your social media icons or links here */}
+          <a href="#" className="social-icon">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="#" className="social-icon">
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a href="#" className="social-icon">
+            <i className="fab fa-github"></i>
+          </a>
+          {/* Add more social media icons or links as needed */}
+        </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
