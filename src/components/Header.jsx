@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Assuming you're using React Router for navigation
 
 const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Your Portfolio</a>
+        <Link className="navbar-brand" to="/">Your Portfolio</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,16 +20,16 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Portfolio</a>
+              <Link className="nav-link" to="/portfolio">Portfolio</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#resume">Resume</a>
+              <Link className="nav-link" to="/resume">Resume</Link>
             </li>
           </ul>
         </div>
