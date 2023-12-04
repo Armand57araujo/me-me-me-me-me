@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">Your Portfolio</Link>
+        <Link className="navbar-brand" to="/">Armand M. Araujo</Link>
         <button
           className="navbar-toggler"
           type="button"
