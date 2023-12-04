@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-light text-center py-4">
       <div className="container">
-        <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
         <div className="social-links">
           {/* Add your social media icons or links here */}
           <a href="#" className="social-icon">
