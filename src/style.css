@@ -1,3 +1,8 @@
+#root {
+
+  font-family: 'Caveat', cursive;
+}
+
 .navbar-nav .nav-link.active {
     color: blue; /* Change icon color to blue */
   }
@@ -18,11 +23,10 @@ body {
 }
 
 .profile-image {
-  /* position: relative; */
-  left: 500px;
-  bottom: 145px;
-  width: 130px;
-  height: 150px;
-  border: 5px solid white;
+  /* left: 500px;
+  bottom: 145px; */
+  width: 250px;
+  height: 250px;
+  border: 5px solid oldlace;
   border-radius: 30%;
 }

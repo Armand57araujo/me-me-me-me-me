@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="row">
       <div className="col-md-3 mx-auto">
-        <img src={ProfileImage} className="img-fluid ps-5" alt="Profile"  />
+        <img src={ProfileImage} className="profile-image img-fluid ps-5" alt="Profile"  />
       </div>
       <div className="col-md-9 mx-auto">
         <div className="card">

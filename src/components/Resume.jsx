@@ -18,8 +18,8 @@ const Resume = () => {
         <h2>Resume</h2>
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Your Name</h5>
-            <h6 className="card-subtitle mb-2 text-muted">Job Title</h6>
+            <h5 className="card-title">Armand Araujo</h5>
+            <h6 className="card-subtitle mb-2 text-muted">Graduate</h6>
             <p className="card-text">Brief description about yourself, your skills, and experience.</p>
           </div>
           <ul className="list-group list-group-flush">
