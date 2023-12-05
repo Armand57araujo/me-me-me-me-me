@@ -19,13 +19,13 @@ const Resume = () => {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">Armand Araujo</h5>
-            <h6 className="card-subtitle mb-2 text-muted">Graduate</h6>
-            <p className="card-text">Brief description about yourself, your skills, and experience.</p>
+            {/* <h6 className="card-subtitle mb-2 text-muted">Graduate</h6> */}
+            {/* <p className="card-text">Brief description about yourself, your skills, and experience.</p> */}
           </div>
           <ul className="list-group list-group-flush">
-            <li className="list-group-item">Education: Your Education Details</li>
-            <li className="list-group-item">Experience: Your Work Experience</li>
-            <li className="list-group-item">Skills: Your Skills</li>
+            <li className="list-group-item">Education: Graduate Of Berkeley Coding Bootcamp</li>
+            <li className="list-group-item">Experience: </li>
+            <li className="list-group-item">Skills: HTML, CSS, CSS Libraries (Materialize, Bootstrap, Bulma), Javascript, jQuery, Node.Js, NPM, Express.js, MySQL, MongoDB, React </li>
             {/* Add more sections as needed */}
           </ul>
           <div className="card-body">
