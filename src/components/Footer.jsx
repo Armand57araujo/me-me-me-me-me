@@ -12,6 +12,9 @@ const Footer = () => {
           <a href="https://github.com/Armand57araujo" className="social-icon" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
+          <a href="https://twitter.com/araujo_armand" className="social-icon" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
           {/* Add more social media icons or links as needed */}
         </div>
       </div>
