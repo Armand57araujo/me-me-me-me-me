@@ -1,6 +1,17 @@
 import React from 'react';
-
+import myResume from '../assets/FakeResume.pdf';
 const Resume = () => {
+  const handleDownload = () => {
+    fetch(myResume).then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "FakeResume.pdf";
+        alink.click(); //takes user immediately to adobe
+      });
+    });
+  };
   return (
     <div className="row">
       <div className="col-md-8 mx-auto">
@@ -18,7 +29,7 @@ const Resume = () => {
             {/* Add more sections as needed */}
           </ul>
           <div className="card-body">
-            <a href="#" className="card-link">Link to your resume/CV</a>
+            <a href="#" onClick={handleDownload} className="card-link" >Link to your resume</a>
           </div>
         </div>
       </div>

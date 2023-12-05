@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio2';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 
 
 function App() {

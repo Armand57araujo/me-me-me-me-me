@@ -7,12 +7,13 @@ const Contact = () => {
         <h2>Contact Me</h2>
         <p>Feel free to reach out using the information below:</p>
         <ul className="list-group">
-          <li className="list-group-item">Email: example@example.com</li>
-          <li className="list-group-item">Phone: +1234567890</li>
-          <li className="list-group-item">Address: 1234 Main St, City, Country</li>
+          <li className="list-group-item">Email: armand_araujo@yahoo.com</li>
+          <li className="list-group-item">Phone: +1(424)303-1384</li>
         </ul>
       </div>
       <div className="col-md-6">
+      <h2>Send Your Info</h2>
+        <p>Or leave your info below:</p>
         <form>
           <div className="form-group">
             <label htmlFor="name">Name</label>

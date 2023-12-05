@@ -8,6 +8,12 @@ html {
   font-family: Arial, sans-serif;
 }
 
+/* Add hover effect and active link style */
+.navbar-nav .nav-link.active {
+  color: blue; /* Change icon color to blue */
+}
+
+
 /* Site-wide layout */
 .App {
   display: flex;
@@ -57,7 +63,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 0 10px;
 }
